@@ -1,0 +1,27 @@
+.cuadrado {
+    border: 1px solid whitesmoke; /* Línea negra, 2px de grosor */
+    padding: 20px;          /* Espacio interno */
+    width: 90vw;           /* Ancho del cuadrado */
+    height: 78vh;          /* Alto del cuadrado */
+    overflow-y: auto;      /* Scroll vertical si sobra contenido */
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+details, summary {
+    display: inline;
+    vertical-align: super;
+    font-size: 0.75rem;
+    padding: 0 0.25rem;
+}
+
+summary {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    max-height: 78vh;
+    height: auto;
+    display: block;
+}
