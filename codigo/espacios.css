@@ -1,0 +1,59 @@
+        .botón_volver {
+            position: fixed;
+            top: 0.75rem;
+            left: 0.75rem;
+            z-index: 1000;
+            margin: 0;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding-top: 2.5rem;
+            }
+
+            .botón_volver {
+                top: 0.5rem;
+                left: 0.5rem;
+                font-size: 0.85rem;
+            }
+        }
+
+        
+
+        .project-baksteen {
+            border-top: 1px solid whitesmoke;
+            border-bottom: 1px solid whitesmoke;
+            padding: 0.5rem 0;
+        }
+
+        .project-baksteen h2 {
+            margin: 0 0 1rem;
+            text-align: center;
+        }
+
+        .baksteen-layout {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+            align-items: start;
+            gap: 1rem;
+        }
+
+        .responsive {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .baksteen-details summary {
+            cursor: pointer;
+        }
+
+        .baksteen-details p {
+            margin-top: 0.75rem;
+        }
+
+        @media (max-width: 600px) {
+            .baksteen-layout {
+                grid-template-columns: 1fr;
+            }
+        }
