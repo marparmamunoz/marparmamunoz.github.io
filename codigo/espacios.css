@@ -1,3 +1,7 @@
+        body {
+            font-family: "David Libre", serif;
+        }
+
         .botón_volver {
             position: fixed;
             top: 0.75rem;
