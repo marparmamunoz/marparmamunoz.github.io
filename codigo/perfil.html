@@ -19,8 +19,8 @@
 
             .botón_volver {
                 position: fixed;
-                bottom: 0.75rem;
-            right: 1.5rem;
+                top: 2.5rem;
+            right: 0.75rem;
             z-index: 1000;
             margin: 0;
             white-space: nowrap;
@@ -36,9 +36,19 @@
     box-sizing: border-box;
 }
 
+            .perfil_contenido {
+                display: flex;
+                align-items: flex-start;
+                gap: 1rem;
+            }
+
             @media (max-width: 600px) {
                 .idiomas a {
                     display: block;
+                }
+
+                .perfil_contenido {
+                    flex-direction: column;
                 }
 
                 .cuadrado {
@@ -53,13 +63,15 @@
 
 
     <body style="background-color: rgb(243, 236, 227); color: rgb(35, 64, 114)">
-           <h5 class="botón_volver" dir="ltr"><a href="index.html">volver</a></h5>
+           <h5 class="botón_volver" dir="ltr"><a href="index.html">Volver</a></h5>
             <p class="idiomas" dir="ltr">
             <a href="">Nederlands</a>  
             <a href="">Lietuviai </a> 
+            <a href="">English</a>
             </p>
             
             
+            <div class="perfil_contenido">
             <div class="cuadrado">
 
         <h2>Educación</h2>
@@ -96,5 +108,6 @@
             <li><em>Seaside workshop</em>, escritura y guión. 'Luksuz Producija' y Marina Nosorogi - Cres, Croacia<br><b>Participante</b><br>
         </ul>
         </div>
-
+            <p>Martina Parma Muñoz<br> Buenos Aires, Argentina — 2003</p>
+            </div>
     </body>

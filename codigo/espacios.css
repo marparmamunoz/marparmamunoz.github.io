@@ -66,3 +66,32 @@
             cursor: help;
             text-decoration: none;
         }
+
+
+      a:link {
+  color: cadetblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color:  rgb(95, 104, 160);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: brown;
+  background-color: transparent;
+  text-decoration: underline;
+  cursor: help; 
+}
+a:active {
+  color: rgb(216, 154, 31);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+summary:hover {
+    cursor: help;
+    color:brown;
+    text-decoration: underline;
+}
