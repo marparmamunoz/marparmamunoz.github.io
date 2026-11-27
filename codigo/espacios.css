@@ -10,6 +10,8 @@
             margin: 0;
         }
 
+       
+
         @media (max-width: 600px) {
             body {
                 padding-top: 2.5rem;
@@ -95,3 +97,12 @@ summary:hover {
     color:brown;
     text-decoration: underline;
 }
+
+.idiomas {
+            position: fixed;
+            top: 0.5rem;
+            right: 0.5rem;
+            z-index: 1000;
+            margin: 0;
+            font-size: 0.85rem;
+        }

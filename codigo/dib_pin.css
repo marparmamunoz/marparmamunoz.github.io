@@ -41,3 +41,13 @@ a:hover {
                   background-color: transparent;
                   text-decoration: underline;                 
               }
+
+
+.idiomas {
+            position: fixed;
+            top: 0.5rem;
+            right: 0.5rem;
+            z-index: 1000;
+            margin: 0;
+            font-size: 0.85rem;
+        }
